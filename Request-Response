@@ -1,0 +1,16 @@
+1. google.com
+cache-control приватный, странный сервер - gws, много set-cookie
+2. GitHub
+Показалось странным, что в cache-control было no-cache, хотя обычно, когда заходишь на сайты на которых уже был там написано max-age = 0
+3. YouTube
+Странно, что last-modified Fri, 09 Oct 2020 22:29:42 GMT
+и опять непонятный сервер:
+server sffe
+4. Coub
+Cache-Control	max-age=0, private, must-revalidate
+Нигде раньше не видела must-revalidate, set-cookie больше, чем на других сайтах
+5. Tumblr
+Нет set-cookie
+6. Virink
+Наверное непонятные сервера из набора букв - нормально
+Отправляет сначала запрос на сам сайт, потом в вк, далее твиттер, фейсбук и снова твиттер
